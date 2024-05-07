@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #c7f2e3;*/
+    background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 850px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #cadefc;
+    border-radius: 10px;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+        10px 10px 30px rgba(15, 14, 14, 0.12), inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+        inset 10px 10px 15px rgba(15, 14, 14, 0.12);
+
+
+
+}
+
+h1 {
+    text-align: center;
+    font-family: baskerville, serif;
+}
+
+#quote-container {
+    margin-bottom: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff4e1;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+        10px 10px 15px rgba(15, 14, 14, 0.12), inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+        inset 10px 10px 15px rgba(15, 14, 14, 0.12);
+
+
+}
+
+#quote-text {
+    font-size: 20px;
+    font-family: helvetica, serif;
+
+
+}
+
+#author {
+    color: #393e46;
+    font-size: 20px;
+    font-family: brush script mt, cursive;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
